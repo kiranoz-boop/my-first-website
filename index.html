@@ -1,108 +1,135 @@
-<!DOCTYPE html>
-<html lang="uk">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Мій особистий сайт</title>
-<style>
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body {
-  font-family: Arial, sans-serif;
-  background: #0f1020;
-  color: #f5f5ff;
-  line-height: 1.6;
-}
-header {
-  padding: 25px 10%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #17182d;
-}
-.logo { font-size: 22px; font-weight: bold; color: #b9a5ff; }
-nav a { color: white; text-decoration: none; margin-left: 22px; }
-.hero {
-  min-height: 430px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 50px 20px;
-  background: linear-gradient(135deg, #24204b, #633c91, #25234d);
-}
-.hero h1 { font-size: 48px; margin-bottom: 15px; }
-.hero span { color: #d5c4ff; }
-.hero p { font-size: 19px; max-width: 600px; }
-section { padding: 65px 10%; }
-h2 { font-size: 30px; margin-bottom: 25px; color: #c8b5ff; }
-.card {
-  background: #1b1c33;
-  border: 1px solid #393653;
-  border-radius: 18px;
-  padding: 28px;
-  margin-bottom: 20px;
-}
-ul { padding-left: 22px; }
-li { margin: 10px 0; }
-footer {
-  text-align: center;
-  padding: 25px;
-  background: #17182d;
-  color: #aaa;
-}
-a { color: #c8b5ff; }
-@media(max-width:600px) {
-  header { flex-direction: column; gap: 15px; }
-  nav a { margin: 0 7px; }
-  .hero h1 { font-size: 34px; }
-}
-</style>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.6">
+  <style type="text/css">
+    body {background-color: #0d0d18}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Menlo; color: #0744b8; -webkit-text-stroke: #0744b8; background-color: #ffffff}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Menlo; color: #1f762c; -webkit-text-stroke: #1f762c; background-color: #ffffff}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Menlo; color: #06214f; -webkit-text-stroke: #06214f; background-color: #ffffff}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Menlo; color: #1b1f22; -webkit-text-stroke: #1b1f22; background-color: #ffffff}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Menlo; color: #1b1f22; -webkit-text-stroke: #1b1f22; background-color: #ffffff; min-height: 23.0px}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Menlo; color: #bb341b; -webkit-text-stroke: #bb341b; background-color: #ffffff}
+    span.s1 {font-kerning: none}
+    span.s2 {font-kerning: none; color: #cb2339; -webkit-text-stroke: 0px #cb2339}
+    span.s3 {font-kerning: none; color: #bb341b; -webkit-text-stroke: 0px #bb341b}
+    span.s4 {font-kerning: none; color: #0744b8; -webkit-text-stroke: 0px #0744b8}
+    span.s5 {font-kerning: none; color: #06214f; -webkit-text-stroke: 0px #06214f}
+    span.s6 {font-kerning: none; color: #1b1f22; -webkit-text-stroke: 0px #1b1f22}
+    span.s7 {font-kerning: none; color: #1f762c; -webkit-text-stroke: 0px #1f762c}
+    span.s8 {font-kerning: none; color: #da4c0c; -webkit-text-stroke: 0px #da4c0c}
+  </style>
 </head>
 <body>
-<header>
-  <div class="logo">MY WEBSITE</div>
-  <nav>
-    <a href="#about">Про мене</a>
-    <a href="#hobbies">Захоплення</a>
-    <a href="#contacts">Контакти</a>
-  </nav>
-</header>
-
-<div class="hero">
-  <h1>Привіт! Це моя <span>персональна сторінка</span></h1>
-  <p>Мене звати Кіра. Я студентка, цікавлюся програмуванням, веброзробкою та новими технологіями.</p>
-</div>
-
-<section id="about">
-  <h2>Про мене</h2>
-  <div class="card">
-    <p>Я студентка та вивчаю програмування, веброзробку й роботу з Git та GitHub. Мені подобається дізнаватися нове, розвиватися та працювати над цікавими проєктами.</p>
-  </div>
-</section>
-
-<section id="hobbies">
-  <h2>Мої захоплення</h2>
-  <div class="card">
-    <ul>
-      <li>Програмування та веброзробка</li>
-      <li>Подорожі</li>
-      <li>Читання</li>
-      <li>Музика</li>
-      <li>Вивчення нових технологій</li>
-      <li>Саморозвиток і навчання</li>
-    </ul>
-  </div>
-</section>
-
-<section id="contacts">
-  <h2>Контакти</h2>
-  <div class="card">
-    <p>Email: <a href="mailto:kiraalekseyvna@gmail.com">kiraalekseyvna@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/kiranoz-boop">kiranoz-boop</a></p>
-  </div>
-</section>
-
-<footer>© 2026 Мій особистий сайт</footer>
+<p class="p1"><span class="s1">&lt;!DOCTYPE </span><span class="s2">html</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s3">&lt;</span><span class="s1">html</span><span class="s3"> </span><span class="s4">lang</span><span class="s3">=</span><span class="s5">"uk"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s3">&lt;</span><span class="s1">head</span><span class="s3">&gt;</span></p>
+<p class="p1"><span class="s6"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s7">meta</span><span class="s3"> </span><span class="s1">charset</span><span class="s3">=</span><span class="s5">"UTF-8"</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s7">meta</span><span class="s3"> </span><span class="s4">name</span><span class="s3">=</span><span class="s1">"viewport"</span></p>
+<p class="p3"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">content</span><span class="s3">=</span><span class="s1">"width=device-width, initial-scale=1.0"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s7">title</span><span class="s3">&gt;</span><span class="s1">My GitHub Portfolio</span><span class="s3">&lt;/</span><span class="s7">title</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s7">link</span><span class="s3"> </span><span class="s4">rel</span><span class="s3">=</span><span class="s1">"stylesheet"</span><span class="s3"> </span><span class="s4">href</span><span class="s3">=</span><span class="s1">"style.css"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s3">&lt;/</span><span class="s1">head</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s3">&lt;</span><span class="s1">body</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p3"><span class="s3">&lt;</span><span class="s7">div</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"page"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s7">header</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"navbar"</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s7">a</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"brand"</span><span class="s3"> </span><span class="s4">href</span><span class="s3">=</span><span class="s1">"#home"</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">span</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"brand-icon"</span><span class="s3">&gt;</span><span class="s6">⌘</span><span class="s3">&lt;/</span><span class="s7">span</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">span</span><span class="s3">&gt;</span><span class="s1">My Website</span><span class="s3">&lt;/</span><span class="s7">span</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s7">a</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s7">nav</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"nav-links"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">a</span><span class="s3"> </span><span class="s4">href</span><span class="s3">=</span><span class="s5">"#home"</span><span class="s3">&gt;</span><span class="s1">Головна</span><span class="s3">&lt;/</span><span class="s7">a</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">a</span><span class="s3"> </span><span class="s4">href</span><span class="s3">=</span><span class="s5">"#about"</span><span class="s3">&gt;</span><span class="s1">Про мене</span><span class="s3">&lt;/</span><span class="s7">a</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">a</span><span class="s3"> </span><span class="s4">href</span><span class="s3">=</span><span class="s5">"#hobbies"</span><span class="s3">&gt;</span><span class="s1">Захоплення</span><span class="s3">&lt;/</span><span class="s7">a</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">a</span><span class="s3"> </span><span class="s4">href</span><span class="s3">=</span><span class="s5">"#git"</span><span class="s3">&gt;</span><span class="s1">Git</span><span class="s3">&lt;/</span><span class="s7">a</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">a</span><span class="s3"> </span><span class="s4">href</span><span class="s3">=</span><span class="s5">"#contacts"</span><span class="s3">&gt;</span><span class="s1">Контакти</span><span class="s3">&lt;/</span><span class="s7">a</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s7">nav</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s6"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;/</span><span class="s1">header</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s7">section</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"hero"</span><span class="s3"> </span><span class="s4">id</span><span class="s3">=</span><span class="s1">"home"</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"hero-content"</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">span</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"eyebrow"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>✦ MY FIRST GITHUB PROJECT</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;/</span><span class="s7">span</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">h1</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>Привіт!</span></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s7">span</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"gradient-text"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">          </span>Мене звати Іван</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s7">span</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;/</span><span class="s7">h1</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">p</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"hero-description"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>Я навчаюся працювати з Git та GitHub.</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>Це моя перша вебсторінка.</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;/</span><span class="s7">p</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"hero-actions"</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s7">a</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"btn btn-light"</span></p>
+<p class="p3"><span class="s3"><span class="Apple-converted-space">           </span></span><span class="s4">href</span><span class="s3">=</span><span class="s1">"https://github.com/USERNAME"</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">           </span></span><span class="s4">target</span><span class="s1">=</span><span class="s5">"_blank"</span></p>
+<p class="p3"><span class="s3"><span class="Apple-converted-space">           </span></span><span class="s4">rel</span><span class="s3">=</span><span class="s1">"noopener noreferrer"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">          </span>◉ Мій GitHub</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s7">a</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s7">a</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"btn btn-primary"</span><span class="s3"> </span><span class="s4">href</span><span class="s3">=</span><span class="s1">"#about"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">          </span>Про мене ↓</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s7">a</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;/</span><span class="s7">div</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s7">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"hero-visual"</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"orbit"</span><span class="s3">&gt;&lt;/</span><span class="s7">div</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"floating-icon icon-git"</span><span class="s3">&gt;</span><span class="s6">⑂</span><span class="s3">&lt;/</span><span class="s7">div</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"main-icon"</span><span class="s3">&gt;</span><span class="s6">⌘</span><span class="s3">&lt;/</span><span class="s7">div</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"floating-icon icon-code"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s8">&amp;lt;</span><span class="s1">/</span><span class="s8">&amp;gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;/</span><span class="s7">div</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"floating-icon icon-terminal"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s8">&amp;gt;</span><span class="s1">_</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;/</span><span class="s7">div</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s7">div</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s6"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;/</span><span class="s1">section</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"cards"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s7">section</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"glass-card"</span><span class="s3"> </span><span class="s4">id</span><span class="s3">=</span><span class="s1">"about"</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"card-icon blue"</span><span class="s3">&gt;</span><span class="s6">●</span><span class="s3">&lt;/</span><span class="s7">div</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s7">h2</span><span class="s3">&gt;</span><span class="s1">Про мене</span><span class="s3">&lt;/</span><span class="s7">h2</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s7">p</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">          </span>Я навчаюся працювати</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">          </span>з Git та GitHub.</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s7">p</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;/</span><span class="s7">div</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s6"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s1">section</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s7">section</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"glass-card"</span><span class="s3"> </span><span class="s4">id</span><span class="s3">=</span><span class="s1">"contacts"</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"card-icon cyan"</span><span class="s3">&gt;</span><span class="s6">✉</span><span class="s3">&lt;/</span><span class="s7">div</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s7">h2</span><span class="s3">&gt;</span><span class="s1">Мої контакти</span><span class="s3">&lt;/</span><span class="s7">h2</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s7">a</span><span class="s3"> </span><span class="s4">href</span><span class="s3">=</span><span class="s1">"mailto:example@gmail.com"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">          </span>example@gmail.com</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s7">a</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;/</span><span class="s7">div</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s6"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s1">section</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p2"><span class="s6"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;/</span><span class="s1">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p3"><span class="s6"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s7">footer</span><span class="s3"> </span><span class="s4">class</span><span class="s3">=</span><span class="s1">"footer"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s7">p</span><span class="s3">&gt;</span><span class="s1">Made with Git &amp; GitHub Pages</span><span class="s3">&lt;/</span><span class="s7">p</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s6"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;/</span><span class="s1">footer</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p2"><span class="s3">&lt;/</span><span class="s1">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p2"><span class="s3">&lt;/</span><span class="s1">body</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s3">&lt;/</span><span class="s1">html</span><span class="s3">&gt;</span></p>
 </body>
 </html>
