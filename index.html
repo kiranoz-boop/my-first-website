@@ -1,105 +1,108 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="uk">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 24.0px Times; -webkit-text-stroke: #000000}
-    p.p4 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Apple Symbols'; -webkit-text-stroke: #000000}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Lucida Grande'; -webkit-text-stroke: #000000}
-    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'; -webkit-text-stroke: #000000}
-    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Zapf Dingbats'; -webkit-text-stroke: #000000}
-    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; -webkit-text-stroke: #000000}
-    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo; -webkit-text-stroke: #000000}
-    p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo; -webkit-text-stroke: #000000; min-height: 15.0px}
-    li.li2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
-    span.s1 {font: 12.0px 'Lucida Grande'; text-decoration: underline ; font-kerning: none}
-    span.s2 {text-decoration: underline ; font-kerning: none}
-    span.s3 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
-    span.s4 {font: 12.0px 'Zapf Dingbats'; font-kerning: none}
-    span.s5 {font-kerning: none}
-    span.s6 {font: 12.0px 'Hiragino Mincho ProN'; text-decoration: underline ; font-kerning: none}
-    span.s7 {font: 12.0px Times; text-decoration: underline ; font-kerning: none}
-    span.s8 {font: 12.0px 'Times New Roman'; text-decoration: underline ; font-kerning: none}
-    span.s9 {-webkit-text-stroke: 0px #000000}
-    ul.ul1 {list-style-type: disc}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Мій особистий сайт</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: Arial, sans-serif;
+  background: #0f1020;
+  color: #f5f5ff;
+  line-height: 1.6;
+}
+header {
+  padding: 25px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #17182d;
+}
+.logo { font-size: 22px; font-weight: bold; color: #b9a5ff; }
+nav a { color: white; text-decoration: none; margin-left: 22px; }
+.hero {
+  min-height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #24204b, #633c91, #25234d);
+}
+.hero h1 { font-size: 48px; margin-bottom: 15px; }
+.hero span { color: #d5c4ff; }
+.hero p { font-size: 19px; max-width: 600px; }
+section { padding: 65px 10%; }
+h2 { font-size: 30px; margin-bottom: 25px; color: #c8b5ff; }
+.card {
+  background: #1b1c33;
+  border: 1px solid #393653;
+  border-radius: 18px;
+  padding: 28px;
+  margin-bottom: 20px;
+}
+ul { padding-left: 22px; }
+li { margin: 10px 0; }
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #17182d;
+  color: #aaa;
+}
+a { color: #c8b5ff; }
+@media(max-width:600px) {
+  header { flex-direction: column; gap: 15px; }
+  nav a { margin: 0 7px; }
+  .hero h1 { font-size: 34px; }
+}
+</style>
 </head>
 <body>
-<p class="p1"><span class="s1">⌘</span><span class="s2">My Website</span></p>
-<p class="p1"><span class="s2">ГоловнаПро мене</span><span class="s3"> </span><span class="s2">ЗахопленняGitКонтакти</span></p>
-<p class="p2"><span class="s4">✦</span><span class="s5"> MY FIRST GITHUB PROJEC</span></p>
-<<<<<<< HEAD
-<p class="p2"><span class="s5">&lt;h1&gt;Привіт! Це моя &lt;span class="gradient-text"&gt; персональна сторінка &lt;/span&gt; &lt;/h1&gt;</span></p>
-=======
-<p class="p2"><span class="s5">&lt;h1&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span>Привіт!</span></p>
->>>>>>> main
-<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span>&lt;span class="gradient-text"&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">      </span>Мене звати Кіра</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span>&lt;/span&gt;</span></p>
-<p class="p2"><span class="s5">&lt;/h1&gt;</span></p>
-<p class="p3"><span class="s5"><b>&lt;h1&gt;Вітаю на &lt;span class="gradient-text"&gt; моєму сайті! &lt;/span&gt; &lt;/h1&gt;</b></span></p>
-<p class="p4"><span class="s5">Я студентка та вивчаю програмування, веброзробку й роботу з Git та GitHub. Це моя перша вебсторінка-портфоліо.</span></p>
-<p class="p1"><span class="s6"><a href="https://github.com/USERNAME">◉<span class="s7"> Мій GitHub</span></a></span><span class="s3"> </span><span class="s2">Про мене </span><span class="s8">↓</span></p>
-<p class="p5"><span class="s5"></span><br></p>
-<p class="p6"><span class="s5">⑂</span></p>
-<p class="p7"><span class="s5">⌘</span></p>
-<p class="p2"><span class="s5">&lt;/&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">  </span>&lt;section&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">  </span>&lt;section class="glass-card" id="hobbies"&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">  </span>&lt;div class="card-icon pink"&gt;♥&lt;/div&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">  </span>&lt;div&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span>&lt;h2&gt;Мої захоплення&lt;/h2&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span>&lt;ul class="hobbies-list"&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">      </span>&lt;li&gt;Програмування&lt;/li&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">      </span>&lt;li&gt;Подорожі&lt;/li&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">      </span>&lt;li&gt;Читання&lt;/li&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">      </span>&lt;li&gt;Музика&lt;/li&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span>&lt;/ul&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s5">&lt;/section&gt;</span></p>
-<p class="p8"><span class="s5">●</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; -webkit-text-stroke: #000000"><span class="s5"><b>Про мене</b></span></h2>
-<p class="p4"><span class="s5">Я навчаюся створювати вебсайти та розвивати свої навички в IT. Мені цікаво поєднувати програмування, дизайн і сучасні технології.</span></p>
-<p class="p10"><span class="s5">✦</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; -webkit-text-stroke: #000000"><span class="s5"><b>Мої захоплення</b></span></h2>
-<ul class="ul1">
-  <li class="li2"><span class="s9"></span><span class="s5">Веброзробка та дизайн</span></li>
-  <li class="li2"><span class="s9"></span><span class="s5">Вивчення нових технологій</span></li>
-  <li class="li2"><span class="s9"></span><span class="s5">Саморозвиток і навчання</span></li>
-</ul>
-<p class="p11"><span class="s5">✉</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; -webkit-text-stroke: #000000"><span class="s5"><b>Мої контакти</b></span></h2>
-<p class="p4"><span class="s5">Напиши мені на пошту:</span></p>
-<p class="p1"><span class="s2">kiraalekseyvna@gmail.comшт</span></p>
-<p class="p6"><span class="s5">⑂</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; -webkit-text-stroke: #000000"><span class="s5"><b>Знайомство з Git</b></span></h2>
-<p class="p4"><span class="s5">Git допомагає відстежувати зміни в коді. Обери вкладку, щоб переглянути приклади основних команд.</span></p>
-<p class="p2"><span class="s5">Перевірка змінГілки ІсторіяНадсилання</span></p>
-<p class="p5"><span class="s5"></span><br></p>
-<p class="p2"><span class="s5">Terminal — git</span></p>
-<p class="p12"><span class="s5">$ git status</span></p>
-<p class="p12"><span class="s5">Перевірити стан робочої директорії</span></p>
-<p class="p12"><span class="s5">Побачити змінені та нові файли</span></p>
-<p class="p12"><span class="s5">$ git branch</span></p>
-<p class="p12"><span class="s5">Переглянути наявні гілки</span></p>
-<p class="p13"><span class="s5"></span><br></p>
-<p class="p12"><span class="s5">$ git switch -c feature</span></p>
-<p class="p12"><span class="s5">Створити та перейти в нову гілку</span></p>
-<p class="p12"><span class="s5">$ git log --oneline</span></p>
-<p class="p12"><span class="s5">Переглянути історію комітів у скороченому вигляді</span></p>
-<p class="p12"><span class="s5">$ git add .</span></p>
-<p class="p12"><span class="s5">$ git commit -m "Add initial website"</span></p>
-<p class="p12"><span class="s5">$ git push</span></p>
-<p class="p12"><span class="s5">Зберегти зміни та надіслати їх на GitHub</span></p>
-<p class="p4"><span class="s5">Made with Git &amp; GitHub Pages</span></p>
+<header>
+  <div class="logo">MY WEBSITE</div>
+  <nav>
+    <a href="#about">Про мене</a>
+    <a href="#hobbies">Захоплення</a>
+    <a href="#contacts">Контакти</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Привіт! Це моя <span>персональна сторінка</span></h1>
+  <p>Мене звати Кіра. Я студентка, цікавлюся програмуванням, веброзробкою та новими технологіями.</p>
+</div>
+
+<section id="about">
+  <h2>Про мене</h2>
+  <div class="card">
+    <p>Я студентка та вивчаю програмування, веброзробку й роботу з Git та GitHub. Мені подобається дізнаватися нове, розвиватися та працювати над цікавими проєктами.</p>
+  </div>
+</section>
+
+<section id="hobbies">
+  <h2>Мої захоплення</h2>
+  <div class="card">
+    <ul>
+      <li>Програмування та веброзробка</li>
+      <li>Подорожі</li>
+      <li>Читання</li>
+      <li>Музика</li>
+      <li>Вивчення нових технологій</li>
+      <li>Саморозвиток і навчання</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contacts">
+  <h2>Контакти</h2>
+  <div class="card">
+    <p>Email: <a href="mailto:kiraalekseyvna@gmail.com">kiraalekseyvna@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/kiranoz-boop">kiranoz-boop</a></p>
+  </div>
+</section>
+
+<footer>© 2026 Мій особистий сайт</footer>
 </body>
 </html>
